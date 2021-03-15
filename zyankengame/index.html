@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+   <link rel="stylesheet" href="css/style2.css">
+   
+</head>
+<body>
+  
+<div class="a">Rock-paper-scissors　battle!!</div>
+
+<div class="you">
+<div class="box1">You</div>
+<div class="box2"></div>
+</div>
+<div class="vs">
+    <p>Lets.GO!</p>
+
+<p class="name">rock      ・      scissors      ・      paper</p>
+
+</div>
+<!-- ここにじゃんけん書く -->
+
+  
+    <div class="player">
+    <button id="goo"  >rock
+    </button>
+    
+    <button id="choki" >scissors
+    </button>
+   
+    <button id="paa" > paper
+    </button>
+    
+</div>
+
+
+
+<div class="vs">
+<p>VS</p>
+
+<div id="pc">enemy hands</div>
+<p></p><div id="result">win?lose?draw?</div></p>
+
+</div>
+
+<div class="enemy">
+ <div class="box3">Enemy</div> 
+ <div class="box4"></div>  
+</div>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="js/moov.js"></script>
+
+<!-- 何か新しいものの追加 -->
+
+<button id="openModal">必殺技</button>
+
+
+<section id="modalArea" class="modalArea">
+  <div id="modalBg" class="modalBg"></div>
+  <div class="modalWrapper">
+    <div class="modalContents">
+      <img src="../じゃんけん/movie/7.gif" alt="">
+      <p>げしげしっ！</p>
+    </div>
+    <div id="closeModal" class="closeModal">
+      ×
+    </div>
+  </div>
+</section>
+</body>
+
+
+</html>
